@@ -1,8 +1,11 @@
-import type { NextPage } from "next";
-import styles from "@/styles/Home.module.css";
+import type { NextPage } from 'next'
 
 const Home: NextPage = () => {
-  return <div className={styles.container}>my initial app!</div>;
-};
+  return (
+    <>
+      <div className='text-red-500'>my initial app!</div>
+    </>
+  )
+}
 
-export default Home;
+export default Home
